@@ -1,0 +1,1 @@
+hello gethub, ini adalah repository pertama saya.
