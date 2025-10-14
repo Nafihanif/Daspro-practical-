@@ -1,6 +1,5 @@
-package dasproweek6;
+package dasproweek8;
 import java.util.Scanner;
-import javax.sound.midi.SysexMessage;
 public class jobsheet6{
     public static void main (String [] args){
         Scanner tiu = new Scanner (System.in);
