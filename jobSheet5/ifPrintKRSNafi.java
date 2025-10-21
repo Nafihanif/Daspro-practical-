@@ -1,4 +1,4 @@
-package jobSheet5;
+package jobsheet5;
 import java.util.Scanner;
 public class ifPrintKRSNafi {
     public static void main(String[] args) {
@@ -12,5 +12,6 @@ public class ifPrintKRSNafi {
             System.out.println("verified UKT payment");
             System.out.println("Please print the KRS and ask for the DPA's signature");
         }
+        twk.close();
     }
 }
