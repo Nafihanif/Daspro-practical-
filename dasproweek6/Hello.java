@@ -1,7 +1,8 @@
-package week6;
+package dasproweek6;
 
-public class Hello2 {
+class Hello{
     public static void main(String[] args) {
         System.out.println("helloo");
+        System.out.println("world");
     }
 }
