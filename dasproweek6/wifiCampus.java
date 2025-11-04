@@ -22,7 +22,7 @@ public class wifiCampus {
             }
 
         }else {
-            System.out.println("\nResult : Access danied ");
+            System.out.println("\nResult : Access denied ");
         }
         input.close();
     }
