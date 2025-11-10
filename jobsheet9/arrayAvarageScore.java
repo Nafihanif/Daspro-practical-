@@ -18,10 +18,10 @@ public class arrayAvarageScore {
             total += score[i];
 
             if (score[i] > 70){
-                System.out.println("Student " + (i+1) +"score :" + score[i]);
+                System.out.println("Student " + (i+1) +" score : " + score[i]);
                 System.out.println("pass");
         }else{
-            System.out.println("Student " + (i+1) + "score :" + score[i]);
+            System.out.println("Student " + (i+1) + " score : " + score[i]);
             System.out.println("failed");
         }
     }

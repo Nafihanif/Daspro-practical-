@@ -5,7 +5,7 @@ public class linearSearch {
         Scanner cs = new Scanner(System.in);
         //int[] arrayInt = {34, 18, 26, 48, 72, 20, 56, 63};
         int key;
-        int resutl = 0;
+        int indx = 0;
 
         System.out.print("Enter the number of array elements : " );
         int c = cs.nextInt();
@@ -19,15 +19,19 @@ public class linearSearch {
         System.out.print("Enter the key you want to search for :");
         key = cs.nextInt();
 
-        for (int i =0; i< arrayInt.length; i++){
+        boolean result;
+        for (int i =0; i < arrayInt.length; i++){
             if (arrayInt[i] == key ){
-            resutl = i;
-            System.out.println("The key in the array is located at index posision " + resutl);
-            break;
+            indx = i;
+            result = true;
             } else {
-                System.out.println("The key is not found ");
-                break;
+                result = false;
             }
+        }
+        if (result= true){
+         System.out.println("The key in the array is located at index posision " + indx);
+        }else{
+            System.out.println("The key is not found ");
         }
         cs.close();
     }
