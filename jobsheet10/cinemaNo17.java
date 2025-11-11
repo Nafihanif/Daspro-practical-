@@ -3,6 +3,7 @@ package jobsheet10;
 public class cinemaNo17 {
     public static void main(String[] args) {
         String [][] audience = new String[4][2];
+
         audience [0][0] = "Amin";
         audience [0][1] = "Bena";
         audience [1][0] = "Candra";
@@ -25,5 +26,20 @@ public class cinemaNo17 {
         for (String[] rowAudience : audience){
         System.out.println("Length of row: " + rowAudience.length);
         }
+
+        System.out.println("Audiences is the row 3 :");
+        for (int i= 0; i< audience[2].length;i++){
+            System.out.println(audience[2][i]);
+        }
+
+        System.out.println("Audiences is the row 3 :");
+        for (String i :audience[2]){
+            System.out.println(i);
+        }
+
+        for (int i =0; i <audience.length; i++){
+            System.out.println("Audience in the row : "+ ( i + 1 ) + " " + String.join(" , ", audience[i]));
+        }
+
     }
 }
