@@ -11,6 +11,8 @@ public class ifPrintKRSNafi {
         if (uktpaid){
             System.out.println("verified UKT payment");
             System.out.println("Please print the KRS and ask for the DPA's signature");
+        }else {
+             System.out.println("Registration rejected. Please pay UKT first");
         }
         twk.close();
     }
