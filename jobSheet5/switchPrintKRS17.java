@@ -37,6 +37,7 @@ public class switchPrintKRS17 {
             System.out.println("Invalid semester");
                 break;
         }
+        sc.close();
     }
     
 }
